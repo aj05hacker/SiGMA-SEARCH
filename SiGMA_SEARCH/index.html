@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>SiGMA Search</title>
+
+
+<style>
+
+    html {
+      border: 5px solid #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 0 20px #67ff2f;
+      overflow: hidden; /* Prevents the border from adding extra width/height to the page */
+    }
+    
+    /* Add a pulsing effect to the border */
+    html:before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      right: -10px;
+      bottom: -10px;
+      border-radius: 30px;
+      border: 2px solid rgba(117, 254, 188, 0.8);
+      animation: pulse 3s linear infinite;
+    }
+    
+    @keyframes pulse {
+      0% {
+        transform: scale(0.9);
+        opacity: 0.7;
+      }
+      
+      50% {
+        transform: scale(1.1);
+        opacity: 0.3;
+      }
+      
+      100% {
+        transform: scale(0.9);
+        opacity: 0.7;
+      }
+    }
+  </style>
+
+</head>
+<body>
+
+  <div>
+    <div>
+    <!--CHROME-->
+    <div class="icon-1" style=" width:fit-content;margin-left:40%;padding-top:5%;">
+        <img src="chrome.png" alt="Chrome Logo" class="floating-chrome">
+    </div>
+
+    <!--FIREFOX-->
+    <div class="icon-2"style="  width:fit-content;margin-left: 20%;">
+        <img src="firefox.png" alt="firefox Logo" class="floating-firefox">
+    </div>
+
+    <!--EDGE-->
+
+
+
+
+<div style="display: flex;">
+  <div class="spinning">
+    <div class="atom">
+      <div class="electron"></div>
+      <div class="electron-alpha"></div>
+      <div class="electron-omega"></div>
+    </div>      
+</div>
+<div style="width:100%;color:aqua ;"><h1 style="padding-left:20%">coding is Love ❤️</h1></div>
+
+</div>
+
+  
+<div>
+    <div> 
+        <center>
+        <form id="search-form" action="" method="get" target="_blank" style="width:fit-content;margin-top:2%;display:inline-block">
+            <div class="search-container">
+              <select id="search-engine" name="engine">
+              <div class="options">
+                <option value="https://www.google.com/search" class="options">Google</option>
+                <option value="https://www.bing.com/search" class="options">Bing</option>
+                <option value="https://www.yahoo.com/search" class="options">Yahoo</option>
+                <option value="https://duckduckgo.com/" class="options">DuckDuckGo</option>
+                <option value="https://www.ask.com/web"class="options">Ask</option>
+                <option value="https://www.youtube.com/results" class="options">YouTube</option>
+                <option value="https://www.chatgpt.com/search" class="options">ChatGPT</option>
+              </div>  
+              </select>
+              <input type="text" name="q" placeholder="Search...">
+              <button type="submit">Search</button>
+            </div>
+          </form>
+        </center>
+        </div>
+
+
+<div style="display:flex">
+    <!--CHARGPT-->
+    <div class="icon-3"style=" width:fit-content;margin-left:90%;">
+        <img src="chatgpt.png" alt="chatgpt Logo" class="floating-chatgpt">
+    </div>
+    </div>
+
+    <div class="icon-3"style="width:fit-content;margin-left:70%; display:inline-block;">
+    <img src="edge.png" alt="edge Logo" class="floating-chatgpt">
+    </div>
+    <h3 style="color:white; display:inline-block; font-family:'Pacifico', cursive">by Abdul Hajees</h3>
+    
+  </div>
+ 
+
+    </div>
+    <script src="script.js"></script>
+</body> 
+</html> 

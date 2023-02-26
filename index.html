@@ -28,6 +28,15 @@
       border: 2px solid rgba(117, 254, 188, 0.8);
       animation: pulse 3s linear infinite;
     }
+
+          /* Media query to adjust border size on smaller screens */
+          @media screen and (max-width: 600px) {
+        body {
+          padding-top: 20;
+          border: 2px solid #ffffff;
+          border-radius: 10px;
+          box-shadow: 0 0 10px #67ff2f;
+        }}
     
     @keyframes pulse {
       0% {
